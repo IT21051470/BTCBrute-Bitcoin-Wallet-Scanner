@@ -30,6 +30,26 @@ Matches are logged and sent via Telegram notification.
 
 ---
 
+## 📚 Bitcoin Address Database
+
+BTCBrute requires a list of Bitcoin addresses to scan against.
+
+You can download a public Bitcoin address database (richlist) from:
+
+http://alladdresses.loyce.club/
+
+yaml
+Copy
+Edit
+
+- Choose a dataset like `btc-1M.txt`, `btc-10M.txt`, etc.
+- Place the file in your project folder.
+- Use the `-data` argument to specify the file path.
+
+✅ This allows completely offline scanning without needing blockchain API access!
+
+---
+
 ## 📦 Installation
 
 ```bash
