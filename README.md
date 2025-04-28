@@ -38,9 +38,6 @@ You can download a public Bitcoin address database (richlist) from:
 
 http://alladdresses.loyce.club/
 
-yaml
-Copy
-Edit
 
 - Choose a dataset like `btc-1M.txt`, `btc-10M.txt`, etc.
 - Place the file in your project folder.
